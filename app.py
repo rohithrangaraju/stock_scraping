@@ -34,10 +34,10 @@ def scrape_data():
 # while 1:
 #     scrape_data()
 #     time.sleep(10)
-@app.route("/download")
+@app.route("/stock")
 def download():
     scrape_data()
     return send_file("stock.csv", as_attachment=True)
 
 if __name__ =='__main__':
-    app.run(threaded=True, host='0.0.0.0', port=8000)
+    app.run()
