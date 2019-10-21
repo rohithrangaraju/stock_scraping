@@ -72,6 +72,6 @@ rsa==3.4.2
 s3transfer==0.1.13
 urllib3==1.22
 wcwidth==0.1.7
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 xlrd==1.1.0
 gunicorn
